@@ -1,7 +1,7 @@
 # Reserv
 POOSD Large Project
 
-## Install:
+## Install
 ```shell
 cd reserv-app
 npm i
