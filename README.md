@@ -1,5 +1,14 @@
 # Reserv
 POOSD Large Project
 
-# Install dependencies and modules using:
-```npm i```
+## Install:
+```shell
+cd reserv-app
+npm i
+```
+
+## Setup and test
+```shell
+cd reserv-app/api
+node main.ts
+```
