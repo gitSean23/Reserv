@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 
 
 
-const uri = "mongodb+srv://poosdreserv:COP4331_g17!@cluster0.hn2jyhq.mongodb.net/?retryWrites=true&w=majority";
+const uri = process.env.MONGO_URI;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
